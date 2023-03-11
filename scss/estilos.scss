@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+$color_1: #5a5a5a;
+$color_2: #1E90FF;
+$botones:green;
+
+@import "header";
+@import "footer";
+@import "galeria";
+@import "contacto";
+
+
+.carousel {
+	margin-bottom: 1rem;
+}
+.carousel-caption {
+	bottom: 1rem;
+	z-index: 10;
+}
+.carousel-item {
+	height: 32rem;
+}

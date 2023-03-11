@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .navbar-brand {
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease-in-out;
+}
+.navbar .navbar-brand:hover {
+  color: #1E90FF;
+}
+.navbar div button {
+  color: green;
+}
+.navbar ul li a {
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease-in-out;
+}
+.navbar ul li a:hover {
+  color: #1E90FF;
+}
+.navbar form button {
+  border-color: #1E90FF;
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease-in-out;
+}
+.navbar form button:hover {
+  background-color: #1E90FF;
+}
+
+footer {
+  display: flex;
+}
+footer span {
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease-in-out;
+}
+footer span:hover {
+  color: #1E90FF;
+}
+
+.miBoton {
+  color: white;
+  background-color: #5a5a5a;
+  border: 1px solid #1E90FF;
+  transition: color 0.9s ease-in-out;
+}
+.miBoton:hover {
+  background-color: #1E90FF;
+  opacity: 1;
+}
+
+.miForma {
+  position: center;
+}
+
+.carousel {
+  margin-bottom: 1rem;
+}
+
+.carousel-caption {
+  bottom: 1rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+/*# sourceMappingURL=estilos.css.map */
