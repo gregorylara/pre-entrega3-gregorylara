@@ -11,6 +11,9 @@ $botones:green;
 @import "galeria";
 @import "contacto";
 
+main {
+    min-height: 80vh;
+}
 .miBotonC{
 
     color: white;
@@ -29,7 +32,7 @@ $botones:green;
 
 /* Carousel base class */
 .carousel {
-	margin-bottom: 4rem;
+	margin-bottom: 0;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
